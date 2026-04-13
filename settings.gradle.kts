@@ -208,3 +208,4 @@ buildCache {
         }
     }
 }
+include(":selfhosted-storage")

@@ -201,6 +201,7 @@ configurations {
 }
 
 dependencies {
+    implementation(project(":selfhosted-storage"))
     implementation(project(":shared:core:account:dagger"))
     implementation(project(":shared:core:account-manager:dagger"))
     implementation(project(":shared:core:account-manager:presentation"))
